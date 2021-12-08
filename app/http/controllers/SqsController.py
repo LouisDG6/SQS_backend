@@ -20,6 +20,52 @@ class SqsController(Controller):
 
         id = self.request.param("id")
         return Sqs.find(id)
+    
+    def show_mh(self):
+        """Show a single resource listing
+        ex. Model.find('id')
+            Get().route("/show", SqsController)
+        """
+        mh = Sqs.where('borough', 'Manhattan').get()
+    
+        return mh
+    
+    def show_bx(self):
+        """Show a single resource listing
+        ex. Model.find('id')
+            Get().route("/show", SqsController)
+        """
+        bx = Sqs.where('borough', 'Bronx').get()
+    
+        return bx
+    
+    def show_qn(self):
+        """Show a single resource listing
+        ex. Model.find('id')
+            Get().route("/show", SqsController)
+        """
+        qn = Sqs.where('borough', 'Queens').get()
+    
+        return qn
+    
+    def show_bk(self):
+        """Show a single resource listing
+        ex. Model.find('id')
+            Get().route("/show", SqsController)
+        """
+        bk = Sqs.where('borough', 'Brooklyn').get()
+    
+        return bk
+    
+    def show_si(self):
+        """Show a single resource listing
+        ex. Model.find('id')
+            Get().route("/show", SqsController)
+        """
+        si = Sqs.where('borough', 'Staten Island').get()
+    
+        return si
+    
 
     def index(self):
         """Show several resource listings

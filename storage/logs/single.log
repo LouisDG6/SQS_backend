@@ -21,3 +21,27 @@
 2021-12-07 23:06:46 - INFO - "GET /sqss/ HTTP/1.1" 200 2218
 2021-12-07 23:10:26 - INFO - "DELETE /sqss/6 HTTP/1.1" 200 320
 2021-12-07 23:10:26 - INFO - "GET /sqss/ HTTP/1.1" 200 1898
+2021-12-07 23:13:18 - INFO - "GET /sqss/ HTTP/1.1" 200 1898
+2021-12-07 23:13:18 - INFO - "GET /sqss/ HTTP/1.1" 200 1898
+2021-12-07 23:13:18 - INFO - "GET /sqss/1 HTTP/1.1" 200 380
+2021-12-07 23:13:18 - INFO - "GET /sqss/ HTTP/1.1" 200 1898
+2021-12-07 23:13:18 - INFO - "GET /sqss/1 HTTP/1.1" 200 380
+2021-12-08 18:39:03 - INFO - "GET /sqs/ HTTP/1.1" 200 1898
+2021-12-08 18:45:51 - ERROR - ResponseError in 0 on line 0
+2021-12-08 18:53:47 - ERROR - ResponseError in 0 on line 0
+2021-12-08 18:57:35 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:00:19 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:01:03 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:01:47 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:02:56 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:06:25 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:06:33 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:06:50 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:08:52 - INFO - "GET /sqs/brooklyn HTTP/1.1" 200 1898
+2021-12-08 19:09:38 - INFO - "GET /sqs/brooklyn HTTP/1.1" 200 374
+2021-12-08 19:14:07 - INFO - "GET /sqs HTTP/1.1" 200 1898
+2021-12-08 19:16:32 - INFO - "GET /sqs/staten_island HTTP/1.1" 200 321
+2021-12-08 19:16:32 - INFO - "GET /sqs/bronx HTTP/1.1" 200 489
+2021-12-08 19:16:32 - INFO - "GET /sqs/manhattan HTTP/1.1" 200 382
+2021-12-08 19:17:01 - ERROR - ResponseError in 0 on line 0
+2021-12-08 19:17:10 - ERROR - ResponseError in 0 on line 0
